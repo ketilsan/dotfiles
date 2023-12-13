@@ -1,0 +1,14 @@
+[user]
+	email = ketil.velle@bekk.no
+	name = Ketil Velle
+  signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPB/2e5leh67wYY19TzdzOrYBZ8essXT4GYtuPCna8FD
+
+[gpg]
+  format = ssh
+
+[gpg "ssh"]
+  program = "/Applications/1Password.app/Contents/MacOS/op-ssh-sign"
+
+[commit]
+  gpgsign = true
+
