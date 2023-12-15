@@ -1,5 +1,4 @@
 #TODO: add this export PS1="\u@\h:\W #\! \A \`if [ \$? == 0 ]; then echo \:\); else echo \:\(; fi\` "
-local _hostname_if_ssh="%{$fg_no_bold[cyan]%}$(hostname_if_connected_via_ssh) %{$reset_color%}"
 local _time="⌚ %{$fg_bold[red]%}%*%{$reset_color%}"
 
 PROMPT='%{$fg_bold[cyan]%}%~
