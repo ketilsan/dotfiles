@@ -37,16 +37,14 @@ source $ZSH/oh-my-zsh.sh
 #PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 PATH=/usr/local/bin:$PATH:/opt/local/bin:/usr/local/share/npm/bin/:$HOME/.cargo/bin
 
-source ~/.secret_env_vars
+#eval $(thefuck --alias fuck)
 
-eval $(thefuck --alias fuck)
-
-eval "$(starship init zsh)"
+#eval "$(starship init zsh)"
 
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/Ketil/.sdkman"
-[[ -s "/Users/Ketil/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/ketik/.sdkman/bin/sdkman-init.sh"
+[[ -s "/Users/ketil/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/ketil/.sdkman/bin/sdkman-init.sh"
 
 
 export NVM_DIR="$HOME/.nvm"
@@ -73,8 +71,5 @@ load-nvmrc() {
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
 
-source $HOME/.config/op/plugins.sh
-
-source /Users/Ketil/.docker/init-zsh.sh || true # Added by Docker Desktop
-
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+export PATH=/opt/homebrew/bin:/usr/local/bin:/Users/ketil/.local/bin/:/Users/ketil/git/dotfiles/bin:/Users/ketil/bin:/Users/ketil/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Applications/Privileges.app/Contents/Resources:/usr/local/munki:/Applications/kitty.app/Contents/MacOS:/opt/local/bin:/usr/local/share/npm/bin/:/Users/ketil/.cargo/bin

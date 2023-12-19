@@ -20,6 +20,7 @@ brew "wget"
 brew "yarn"
 
 #Cask
+cask "1password"
 cask "1password-cli"
 cask "alfred"
 cask "bluesnooze"

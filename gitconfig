@@ -8,6 +8,8 @@
   mff = merge --no-ff
   dc = diff --cached
   
+[core]
+	editor = "nvim"
 
 [color]
 	branch = auto
