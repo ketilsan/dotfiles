@@ -1,5 +1,8 @@
 #! /bin/sh
 
+rm ~/.p10k.zsh 
+ln -s ~/git/dotfiles/p10k.zsh ~/.p10k.zsh
+
 rm ~/.gitconfig
 ln -s ~/git/dotfiles/gitconfig ~/.gitconfig
 
