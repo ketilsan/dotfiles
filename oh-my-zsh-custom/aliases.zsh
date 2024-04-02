@@ -18,6 +18,8 @@ alias zshreload="omz reload"
 
 alias vi="nvim"
 
+alias dot="cd ~/git/dotfiles"
+
 #dockers
 alias containerclean="docker ps -a -q | xargs docker rm"
 alias imageclean="docker images --filter dangling=true -q | xargs docker rmi"

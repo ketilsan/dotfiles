@@ -50,6 +50,9 @@ PATH=/usr/local/bin:$PATH:/opt/local/bin:/usr/local/share/npm/bin/:$HOME/.cargo/
 
 #eval "$(starship init zsh)"
 
+export FZF_DEFAULT_COMMAND='fd --type f --strip-cwd-prefix'
+
+source /opt/homebrew/Cellar/zsh-autosuggestions/0.7.0/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="/Users/Ketil/.sdkman"
